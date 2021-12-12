@@ -11,21 +11,24 @@ false
 */
 
 
-function isBlank(indx){
-
-    if(indx.length == 0){
+function isBlank(str){
+    if(str.length==0){
         return true
     }
     else{
         return false
     }
 
-
-
 }
 
-let result = isBlank('')
-console.log(result);
+
+let result1 = isBlank('')
+console.log(result1);
 
 let result2 = isBlank('abc')
 console.log(result2);
+
+
+
+let result3 = isBlank('')
+console.log(result3);

@@ -10,13 +10,13 @@ false
 
 
 
-function checkString(inpt){
+function checkString(inpt) {
 
-    if(Object.prototype.toString.call(inpt) == '[object String]'){
-        
+    if (Object.prototype.toString.call(inpt) == '[object String]') {
+
         return true
     }
-    else{
+    else {
         return false
     }
 
@@ -24,8 +24,8 @@ function checkString(inpt){
 
 
 
-let result = checkString('shihabahmed') 
+let result = checkString('shihabahmed')
 console.log(result);
 
-let result2 = checkString([2,3,4,5])
+let result2 = checkString([2, 3, 4, 5])
 console.log(result2);

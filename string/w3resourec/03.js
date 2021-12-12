@@ -5,13 +5,28 @@ console.log(string_to_array("Robin Singh"));
 
 
 
-function StringtoArray(str){
+// function StringtoArray(str){
 
-    let result = str.split(' ',2)   // split devited to string like two name convation 
-    return result
+//     let result = str.split(' ',2)   // split devited to string like two name convation 
+//     return result
+
+
+
+// }
+
+// console.log(StringtoArray('Shihab ahmed'));
+
+
+
+
+function isSplit(str){
+
+    return str.split(' ',1)
 
 
 
 }
 
-console.log(StringtoArray('Shihab ahmed'));
+
+let result = isSplit('shihab ahmed')
+console.log(result);
