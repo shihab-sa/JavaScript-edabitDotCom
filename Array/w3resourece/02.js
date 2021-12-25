@@ -11,13 +11,14 @@ console.log(array_Clone([1, 2, [4, 0]]));
 */
 
 
-function arayClone(arr){
+function cloneArray(arr){
 
     return [...arr]
 
 }
-let result = arayClone([1, 2, 4, 0])
-console.log(result);
-let result2 =arayClone([1, 2, [4, 0]])
-console.log(result2);
 
+let result= cloneArray([1, 2, 4, 0])
+console.log(result);
+
+let result2 = cloneArray([1, 2, [4, 0]])
+console.log(result2);
