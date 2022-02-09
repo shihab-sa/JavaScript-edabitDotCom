@@ -19,22 +19,21 @@ Expected Output :
 */
 
 
-function firstArray(n){
-
-   return n[0]
-
- }
-
- let x1 = firstArray([7, 9, 0, -2])
- console.log(x1);
- let x2 = firstArray([],3)
-console.log(x2);
-let x3 = firstArray([7, 9, 0, -2],3)
-console.log(x3);
- let x4 = firstArray([7, 9, 0, -2],6)
- console.log(x4);
- let x5 = firstArray([7, 9, 0, -2],-3)
- console.log(x5);
 
 
+
+function myArr(arr,n){
+
+  if(n==null){
+    return []
+  }
+  else if(arr==null){
+    return []
+  }
+
+}
+
+
+console.log(myArr([1,2,3],3));
+console.log(myArr([3,4,5]));
 
