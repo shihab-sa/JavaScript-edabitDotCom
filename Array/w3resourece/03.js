@@ -22,18 +22,46 @@ Expected Output :
 
 
 
-function myArr(arr,n){
+// function myArr(arr,n){
 
-  if(n==null){
-    return []
-  }
-  else if(arr==null){
-    return []
-  }
+//   if(n==null){
+//     return []
+//   }
+//   else if(arr==null){
+//     return []
+//   }
 
-}
+// }
 
 
-console.log(myArr([1,2,3],3));
-console.log(myArr([3,4,5]));
+// console.log(myArr([1,2,3],3));
+// console.log(myArr([3,4,5]));
 
+
+
+// function first(arr,n){
+//   if(n==null){
+//     return arr[0]
+//   }
+//   else if(arr==null){
+//     return arr
+//   }
+//   return arr.slice(0,n)
+
+
+// }
+
+//  // n == zero 
+// console.log(first([7, 9, 0, -2]));
+
+// console.log(first([],3));
+
+// console.log(first([7, 9, 0, -2],3));
+
+// console.log(first([7, 9, 0, -2],6));
+
+// console.log(first([7, 9, 0, -2],-3));
+
+
+// let arr = []
+// console.log(arr.slice(0,3));
