@@ -32,3 +32,25 @@
 // let arr = [1,2,3,4]
 // arr[arr.length] = 100 
 // console.log(arr);
+
+
+
+ let arr = [1,2,3,4]
+// let elemnts = arr.push(500)
+// console.log(elemnts);
+// console.log(arr);
+
+
+function push(arr,n){
+
+    // return like string 
+     arr = arr + "," + n 
+     return arr   // typeof arr
+     
+
+    // return output like really array 
+    arr = [...arr,n]
+    return arr
+
+}
+console.log(push(arr,100));
