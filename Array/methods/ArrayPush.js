@@ -35,22 +35,45 @@
 
 
 
- let arr = [1,2,3,4]
-// let elemnts = arr.push(500)
-// console.log(elemnts);
-// console.log(arr);
+//  let arr = [1,2,3,4]
+// // let elemnts = arr.push(500)
+// // console.log(elemnts);
+// // console.log(arr);
 
 
-function push(arr,n){
+// function push(arr,n){
 
-    // return like string 
-     arr = arr + "," + n 
-     return arr   // typeof arr
+//     // // return like string 
+//     //  arr = arr + "," + n 
+//     //  return arr   // typeof arr
+
+   
      
 
-    // return output like really array 
-    arr = [...arr,n]
-    return arr
+//     // return output like really array 
+//     // arr = [...arr,n]
+//     // return arr
 
+// }
+// console.log(push(arr,100));
+
+
+// function push(array, value) {
+//     array[array.length] = value;
+//     return array
+//   }
+  
+//   var arr = [1, 2, 3]
+//   console.log(push(arr, 10))
+
+
+
+function push(arr,value){
+    arr[arr.length] = value
+    return arr 
 }
-console.log(push(arr,100));
+
+let arr = [2,4,5,6]
+
+
+console.log(push(arr,12));

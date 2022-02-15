@@ -65,3 +65,51 @@ Expected Output :
 
 // let arr = []
 // console.log(arr.slice(0,3));
+
+
+// var first =  function(array, n) {
+//     if (array == null) 
+//     return void 0
+//   if (n == null) 
+//     return array[0];
+//   if (n < 0)
+//     return [];
+//   return array.slice(0, n);
+// };
+
+// console.log(first([7, 9, 0, -2]));
+
+
+// void 0 and arr[0] index both are same 
+
+
+
+// function firstElemets(arr,n){
+//     if(!n){
+//         return arr[0]
+//     }
+//     else{
+//         return arr.slice(0,n)
+//     }
+// }
+
+
+// console.log(firstElemets([2,3,4,5]) );
+// console.log(firstElemets([2,3,4,5],3) );
+
+
+function first(array_name, count){    if(!count){
+   console.log(array_name[0]);
+    }else{
+   console.log(array_name.slice(count));
+   }
+   }
+    
+    const arr = ["Nirav", "Aman", "Mansi", "Vinay", "Kajal", "Aahan"];
+    first(arr,2);
+
+
+// const FRUITS = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+// var citrus = FRUITS.slice(3);
+// // citrus => [ 'Orange', 'Lemon' ]
+// console.log(citrus);
