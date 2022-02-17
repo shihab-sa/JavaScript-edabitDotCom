@@ -98,18 +98,41 @@ Expected Output :
 // console.log(firstElemets([2,3,4,5],3) );
 
 
-function first(array_name, count){    if(!count){
-   console.log(array_name[0]);
-    }else{
-   console.log(array_name.slice(count));
-   }
-   }
+// function first(array_name, count){    if(!count){
+//    console.log(array_name[0]);
+//     }else{
+//    console.log(array_name.slice(count));
+//    }
+//    }
     
-    const arr = ["Nirav", "Aman", "Mansi", "Vinay", "Kajal", "Aahan"];
-    first(arr,2);
+//     const arr = ["Nirav", "Aman", "Mansi", "Vinay", "Kajal", "Aahan"];
+//     first(arr,2);
 
 
-// const FRUITS = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
-// var citrus = FRUITS.slice(3);
-// // citrus => [ 'Orange', 'Lemon' ]
-// console.log(citrus);
+// // const FRUITS = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+// // var citrus = FRUITS.slice(3);
+// // // citrus => [ 'Orange', 'Lemon' ]
+// // console.log(citrus);
+
+
+
+// function firstElement(fir,...other)
+// {
+// return [...other]
+// }
+// console.log(firstElement({},2,3,4,5));
+// console.log(firstElement([],2,3,4,5));
+// console.log(firstElement(99,2,3,4,5));
+
+
+
+
+
+function itsArray(data) {
+    return Array.isArray(data);
+    }
+    
+    
+    function getFirstElement(data) {
+    let firstElement;
+    return itsArray(data) ? firstElement = data[0] : firstElement = 'Its not aray'; 

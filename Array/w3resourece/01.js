@@ -73,3 +73,75 @@ true
 
 // let findArray = arr => Array.isArray(arr)
 // console.log(findArray);
+
+
+
+
+// function checkIsArray(arr){
+//     if(!Array.isArray(arr)){
+//        return `!not im not array`
+//     }
+//     else{
+//         return `!yes im array`
+//     }
+
+// }
+
+
+// console.log(checkIsArray([1,2,3,4]));
+// console.log(checkIsArray('w2shihab'));
+
+
+
+
+// function isArray(arr){
+    
+//     if(!Array.isArray(arr)){
+//         return `!no im not array`
+//     }
+//     else{
+//         return `!yes im array`
+//     }
+// }
+
+
+// console.log(isArray([2,3,4,5]));
+// console.log(isArray('w3shihab'));
+// console.log(isArray('shihab ahmed'));
+
+
+
+
+// function isArrayCheck(arr){
+
+//     if(Object.prototype.toString.call(arr) == "[object Arry]"){
+//         return true
+//     }
+//     else{
+//         return false
+//     }
+
+// }
+
+
+// console.log(isArrayCheck([2,3,4,5]));
+// console.log(isArrayCheck('sdada'));
+// console.log(isArrayCheck('3dada'));
+
+
+
+// function isArray(arr){
+//     if(Object.prototype.toString.call(arr) == "[object Array]"){
+//         return `yes im aray`
+//     }
+//     else{
+//         return `no im not array`
+//     }
+
+// }
+
+// let resultOne = isArray([2,3,4,5])
+// console.log(resultOne);
+
+// let resultTwo = isArray('shihab')
+// console.log(resultTwo);
