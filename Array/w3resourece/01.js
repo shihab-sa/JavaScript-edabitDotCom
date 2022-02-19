@@ -145,3 +145,18 @@ true
 
 // let resultTwo = isArray('shihab')
 // console.log(resultTwo);
+
+
+
+// function isArray(arr){
+//     if(Array.isArray(arr)){
+//         return `yes its array`
+//     }
+//     else{
+//         return `no im array`
+//     }
+// }
+
+
+// console.log(isArray('w3schols'));
+// console.log(isArray([2,3,4]));

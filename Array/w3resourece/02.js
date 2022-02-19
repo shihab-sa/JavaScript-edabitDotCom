@@ -24,6 +24,19 @@ console.log(array_Clone([1, 2, [4, 0]]));
 // console.log(result2);
 
 
-let arr = [1,2,3,4]
-console.log(Array.from(arr));
-console.log(arr.slice(0));
+// let arr = [1,2,3,4]
+// console.log(Array.from(arr));
+// console.log(arr.slice(0));
+
+
+// let arr = [1,2,3]
+// console.log(Array.from(arr));
+// console.log([...arr]);
+// console.log(arr.slice(0));
+
+
+// function isArray(arr){
+//     return Array.from(arr)
+// }
+
+// console.log(isArray([2,3,4]));
