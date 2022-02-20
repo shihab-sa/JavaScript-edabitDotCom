@@ -40,3 +40,19 @@ console.log(array_Clone([1, 2, [4, 0]]));
 // }
 
 // console.log(isArray([2,3,4]));
+
+
+
+
+// function isArray(arr){
+//     return arr.map(el=> Array.isArray(el) ? isArray(el) : el)
+// }
+
+// console.log(isArray([2,3,4]));
+
+
+function isArrayMy(rr){
+    return rr.map(elm=>Array.isArray(elm)? isArrayMy(elm):elm)
+}
+
+console.log(isArrayMy([2,3,4]));
